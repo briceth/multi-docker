@@ -11,7 +11,7 @@ class App extends Component {
         <div>
           {/* // <header className="App-header"> */}
           <Link to="/">Home</Link>
-          <Link to="/otherpage">Other Page</Link>
+          <Link to="/otherpage">click Views</Link>
           {/* </header> */}
           <div>
             <Route exact path="/" component={Fib} />
